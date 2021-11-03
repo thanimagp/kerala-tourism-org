@@ -1,0 +1,62 @@
+*{padding: 0;
+margin: 0;}
+
+    .login{margin-left: 40%;
+    border: 2px solid red;
+    background-color:beige;
+    height:25em;
+    margin-top:10%;
+    margin-right: 40%;
+    padding: 30px;}
+    .login h2{text-align:center;}
+    .login input{height: 1.5em;}
+  .login  #login-button{width:20%;
+height:1.8em;
+color:white;
+background-color:dodgerblue;
+border: 1px solid;}
+.signin{margin-left: 35%;
+  border: 2px solid red;
+  background-color:darkgray;
+  height:35em;
+  margin-top:5%;
+  margin-right: 30%;
+  padding: 30px;}
+  .signin h2{text-align:center;}
+  .signin input{height: 1.5em; width:22em;}
+.signin #login-button{width:20%;
+  margin-left: 40%;
+height:1.8em;
+color:white;
+background-color:dodgerblue;
+border: 1px solid;}
+.login-misc h5{text-align:center;}
+.gallery img{ max-width:100%}
+.cards{ padding: 100px;}
+.heading{padding: 50px;; ;
+  text-align: center;}
+  .spots{padding:100px;}
+  .contents{padding:20px;}
+  .hea{padding: 10px;}
+
+
+
+
+
+footer{background-color: black; 
+color:white;
+height:5em;
+margin-top:2px;
+}
+footer {text-align: center;}
+.footsign{margin-top: 5px;}
+.footlog{margin-top:80px;
+height: 1.5em;}
+.footko{margin-top:25px;
+height: 1.25em;}
+.footgal{margin-top: 20px;
+height: 1em;}
+.indfoot{margin-top: 250px;;
+height:2em;}
+
+  
