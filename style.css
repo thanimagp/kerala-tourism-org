@@ -2,7 +2,7 @@
 margin: 0;}
 
     .login {
-      background-repeat: no-repeat;
+      /* background-repeat: no-repeat; */
         margin-left: 40%;
     border: 2px solid red;
     background-color:beige;
@@ -18,7 +18,7 @@ color:white;
 background-color:dodgerblue;
 border: 1px solid;}
 .signin {
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   margin-left: 35%;
   border: 2px solid red;
   background-color:darkgray;
