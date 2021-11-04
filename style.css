@@ -7,13 +7,13 @@ margin: 0;}
     border: 2px solid red;
     background-color:beige;
     height:27em;
-    width:25%;
+    /* width:25%; */
     margin-top:10%;
     margin-right: 40%;
     padding: 30px;}
     .login h2{text-align:center;}
     .login input{height: 1.5em;}
-  .login  #login-button{width:27%;
+   .login  #login-button{width:27%; 
 height:1.8em;
 color:white;
 background-color:dodgerblue;
