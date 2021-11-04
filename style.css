@@ -1,7 +1,9 @@
 *{padding: 0;
 margin: 0;}
 
-    .login{margin-left: 40%;
+    .login{
+      background-size:cover;
+        margin-left: 40%;
     border: 2px solid red;
     background-color:beige;
     height:25em;
@@ -15,7 +17,9 @@ height:1.8em;
 color:white;
 background-color:dodgerblue;
 border: 1px solid;}
-.signin{margin-left: 35%;
+.signin{
+  background-size:cover;
+  margin-left: 35%;
   border: 2px solid red;
   background-color:darkgray;
   height:35em;
