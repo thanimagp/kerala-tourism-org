@@ -1,8 +1,8 @@
 *{padding: 0;
 margin: 0;}
 
-    .login{
-      background-size:cover;
+    .login {
+      background-repeat: no-repeat;
         margin-left: 40%;
     border: 2px solid red;
     background-color:beige;
@@ -17,8 +17,8 @@ height:1.8em;
 color:white;
 background-color:dodgerblue;
 border: 1px solid;}
-.signin{
-  background-size:cover;
+.signin {
+  background-repeat: no-repeat;
   margin-left: 35%;
   border: 2px solid red;
   background-color:darkgray;
