@@ -44,25 +44,31 @@
      </nav>
     
     
-<form action="index.html" class="login">
+<form action="index.html" class="login" onsubmit="return validate()">
     <h2>User Login</h2>
     <br>
     <div class="login-cont">
-        <label>Username</label>
+        <label for="email">Email</label>
         <br>
-        <input type="text" placeholder="Username">
+        <input type="text" placeholder="email" id="email">
 
     </div>
     <br>
+    <div class="col-lg-7 mx-auto" id="email-error"></div>
     <div class="login-cont">
         <label>Password</label>
         <br>
         
-        <input type="password" placeholder="Password">
+         <input type="password" placeholder="Password" id="password">
+        <div class="col-lg-7 mx-auto" id="password-error"></div>
+        
+
+
+        
         </div>
         <br>
         <div>
-        <button id="login-button">Login </button>
+        <button id="submit">Login </button>
         </div>
         <br>
         <div class="login-misc">
@@ -70,6 +76,7 @@
             <a href=signup.html>Sign Up</a>
         </div>
 </form>
+<script src="login.js"></script>
 <div class="footlog">
 <footer>
   All rights reserved @ kerala tourism 2021

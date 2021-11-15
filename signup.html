@@ -40,13 +40,13 @@
          </div>
        </div>
      </nav> 
-     <form action="index.html" class="signin">
+     <form action="index.html" class="signin" onsubmit="return validate()">
       <h2>Sign in</h2>
       <br>
       <div class="login-cont">
           <label>Name :</label>
            
-          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Name" id="name" required>
           
 
       </div>
@@ -56,30 +56,34 @@
           <label>Email id :</label>
           
           
-          <input type="text" placeholder="Email id">
+          <input type="text" placeholder="Email id" id="email">
           </div>
+          <div id="email-error"></div>
           <br>
           <div class="login-cont">
             <label>Phone number :</label>
             
             
-            <input type="text" placeholder="Phone number">
+            <input type="text" placeholder="Phone number" id="phone">
             </div>
+            <div id="phone-error"></div>
             <br>
           <div class="login-cont">
             <label>Password :</label>
             
             
-            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Password" id=password>
             </div>
+            <div id="password-error"></div>
             <br>
             <div class="login-cont">
               <label> Retype Password :</label>
 
               
               
-              <input type="password" placeholder="Password">
+              <input type="password" placeholder="Password"id=retypepassword>
               </div>
+              <div id="retype-password-error"></div>
           <br>
           <div>
           <button id="login-button">Login </button>
@@ -91,6 +95,7 @@
           </div>
   </form
   >
+  <script src="signin.js"></script>
   <div class ="footsign">
   <footer>
     All rights reserved @ kerala tourism 2021
